@@ -1,0 +1,23 @@
+{
+  "suppressINotifyPattern": false,
+  "suppressGeneratedCodeAttribute": false,
+  "language": "CS",
+  "namespace": "Timeline.Plugins",
+  "serviceContextName": "OrgContext",
+  "generateSdkMessages": true,
+  "generateGlobalOptionSets": false,
+  "emitFieldsClasses": true,
+  "entityTypesFolder": "Entities",
+  "messagesTypesFolder": "Messages",
+  "optionSetsTypesFolder": "Choices",
+  "entityNamesFilter": [
+    "account",
+    "contact",
+    "post"
+  ],
+  "messageNamesFilter": [
+    "examp_*"
+  ],
+  "emitEntityETC": false,
+  "emitVirtualAttributes": true
+}
