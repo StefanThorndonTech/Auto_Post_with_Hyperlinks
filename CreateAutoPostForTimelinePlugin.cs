@@ -54,7 +54,7 @@ namespace Timeline.Plugins
                 throw new ArgumentException("The Row Id cannot be found.");
             }
 
-            if (!executionContext.InputParameters.TryGetValue<string>("Table Name", out var tableName))
+            if (!executionContext.InputParameters.TryGetValue<string>("TableName", out var tableName))
             {
                 throw new ArgumentException("The Table Name cannot be found.");
             }
