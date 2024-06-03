@@ -33,3 +33,5 @@ It is then possible to call the action within a Power Automate to create the lin
 
 This will produce the following output in the D365 Organisation
 ![image](https://github.com/StefanThorndonTech/Auto_Post_with_Hyperlinks/assets/91337126/827af8b3-8f48-4ec9-b4d7-ec2402415190)
+
+There is a demo solution available [here](solution)
