@@ -22,3 +22,14 @@ You will also need to import the plugin package into D365. Once Registered, you 
 >The Plugin Step Image must be registered on the Post Operation plugin pipeline. Otherwise the output value will not be set and the PostLink Output Argument will always be set to null.
 >By setting the plugin step Image to Post Opertation, this allows the argument to be set.
 
+Package Registered:
+![image](https://github.com/StefanThorndonTech/Auto_Post_with_Hyperlinks/assets/91337126/ca20ecb1-b1b7-4f3d-a9f0-7d95da2adb0d)
+
+Plugin Step Image Registration:
+![image](https://github.com/StefanThorndonTech/Auto_Post_with_Hyperlinks/assets/91337126/b19a32d1-1a20-4354-a67f-9f005908602a)
+
+It is then possible to call the action within a Power Automate to create the link and to use it within a create record action
+![image](https://github.com/StefanThorndonTech/Auto_Post_with_Hyperlinks/assets/91337126/8bbe4cf0-8477-40dc-b5f4-74f2930c5a13)
+
+This will produce the following output in the D365 Organisation
+![image](https://github.com/StefanThorndonTech/Auto_Post_with_Hyperlinks/assets/91337126/827af8b3-8f48-4ec9-b4d7-ec2402415190)
