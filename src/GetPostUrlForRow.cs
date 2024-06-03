@@ -80,10 +80,5 @@ namespace Timeline.Plugins
 
             return linkText;
         }
-
-        public void Test()
-        {
-            
-        }
     }
 }
